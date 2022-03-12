@@ -5,8 +5,8 @@ int conversao(int horas, int minutos, int segundos);
 int main() {
   int hr, min, seg;
   
-  printf("Aqui vc irá converter a hora que quer converter\n");
-  printf("_______________________________________________\n");
+  printf("Aqui vc irá converter a hora que quer converter para segundos\n");
+  printf("_____________________________________________________________\n");
   
   printf("Digite a hora:");
   scanf("%d", &hr);
@@ -26,5 +26,5 @@ int conversao(int hr, int min, int seg) {
   
   c = (hr * 60 * 60) + (min * 60) + (seg);
   
-  printf("O valor da conversao da hora digitada foi: %d segundos.", c);
+  printf("O valor da conversao da hora digitada para segundos foi: %d segundos.", c);
 }
